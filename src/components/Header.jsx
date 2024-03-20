@@ -47,9 +47,7 @@ const Header = () => {
               <div className="search-bar">
                 <SearchBar />
               </div>
-              <div>
-                
-              </div>
+              <div></div>
             </ul>
           </div>
         </div>
@@ -62,7 +60,9 @@ const Header = () => {
                 handleClick("camping");
               }}
               style={{
-                textDecoration: activeLink === "camping" ? "underline" : "none",
+                textDecoration:
+                  activeLink === "camping" ? "underline 2px" : "none",
+                 textUnderlineOffset: "8px", // Ajoute de l'espace entre le texte et le soulignement
               }}
               to="/camping"
             >
@@ -77,7 +77,8 @@ const Header = () => {
               }}
               style={{
                 textDecoration:
-                  activeLink === "campagne" ? "underline" : "none",
+                  activeLink === "campagne" ? "underline 2px" : "none",
+                textUnderlineOffset: "8px"
               }}
               to="/campagne"
             >
@@ -92,7 +93,8 @@ const Header = () => {
               }}
               style={{
                 textDecoration:
-                  activeLink === "montagne" ? "underline" : "none",
+                  activeLink === "montagne" ? "underline 2px" : "none",
+                textUnderlineOffset: "8px"
               }}
               to="/montagne"
             >
@@ -106,7 +108,8 @@ const Header = () => {
                 handleClick("mer");
               }}
               style={{
-                textDecoration: activeLink === "mer" ? "underline" : "none",
+                textDecoration: activeLink === "mer" ? "underline 2px" : "none",
+                textUnderlineOffset: "8px"
               }}
               to="/mer"
             >
@@ -120,7 +123,9 @@ const Header = () => {
                 handleClick("nature");
               }}
               style={{
-                textDecoration: activeLink === "nature" ? "underline" : "none",
+                textDecoration:
+                  activeLink === "nature" ? "underline 2px" : "none",
+                textUnderlineOffset: "8px"
               }}
               to="/nature"
             >

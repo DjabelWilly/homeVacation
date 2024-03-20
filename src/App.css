@@ -47,6 +47,12 @@ a {
   font-size: 1em;
   flex-wrap: wrap;
 }
+.header,
+li,
+a:hover {
+  color: rgb(255, 20, 87);
+  
+}
 
 .header {
   display: flex;
@@ -60,6 +66,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
+  border: solid 0.2px rgba(53, 45, 45, 0.327);
 }
 
 #logo {
@@ -67,9 +74,9 @@ a {
   width: 60px;
   height: auto;
   transform: rotate(270deg);
- }
+}
 
-.logoAndBrand{
+.logoAndBrand {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -77,7 +84,7 @@ a {
 
 .brand-name {
   margin-top: 0.3em;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: rgb(255, 20, 87);
   display: flex;
   justify-content: flex-start;
@@ -107,7 +114,6 @@ a {
   border: 1px solid #ccc;
   border-radius: 10px;
   width: auto;
-
 }
 
 .search-bar button {

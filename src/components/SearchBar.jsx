@@ -25,7 +25,7 @@ const SearchBar = () => {
           }
         }}
       />
-      <button  onClick={performSearch}>Rechercher</button>
+      <button  onClick={performSearch}>let's go!</button>
     </div>
   );
 };
