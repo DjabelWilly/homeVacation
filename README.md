@@ -1,2 +1,2 @@
 
-# kind of airbnb web site
+# rental reservation web site
